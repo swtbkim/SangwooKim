@@ -12,15 +12,15 @@ sidebar:
 
   # Profile information
   name: 김상우 (Kim, Sangwoo)
-  tagline: Ph.D. Candidate
+  tagline: Ph.D.
   avatar: profile.jpg  # /assets/images/ 폴더의 사진 파일명 (원형으로 자동 크롭됨)
 
   # Sidebar links (사용하지 않는 항목은 비워두거나 주석 처리)
-  email: your.name@example.com
-  phone:
-  website:          # https:// 포함 전체 URL
+  email: sangwoo.kim@kier.re.kr
+  phone: +82-42-860-3218
+  website: https://swtbkim.github.io/SangwooKim         # https:// 포함 전체 URL
   linkedin:         # 아이디만
-  github: swtbkim
+  github: github.com/swtbkim
   orcid:            # 예: 0000-0000-0000-0000
   scholar:          # Google Scholar user id (citations?user= 뒤의 값)
   pdf-en:           # 영문 CV PDF 링크
@@ -54,16 +54,12 @@ education:
   title: Education
   info:
   - degree: Ph.D. in Mechanical Engineering
-    university: OO University
-    time: 2023 - present
-
-  - degree: M.S. in Mechanical Engineering
-    university: OO University
-    time: 2021 - 2023
+    university: Yonsei University
+    time: 2016 - 2023
 
   - degree: B.S. in Mechanical Engineering
-    university: OO University
-    time: 2017 - 2021
+    university: Korea University
+    time: 2009 - 2015
 
 # ---------------------------------------------------------------
 # Publications : publications / publications2 / publications3 세 개까지 사용 가능
