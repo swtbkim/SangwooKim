@@ -47,10 +47,9 @@ research-interests:
   icon: microscope   # Font Awesome 5 icon name
   # placeholder - 연구 관심 분야를 한 줄씩 작성하세요 (markdown 사용 가능)
   info:
-  - CFD modeling of energy/environmental facilities
-  - Single/multiphase flow, reacting flow, particulate flow, non-thermal plasma
+  - Multi-physics CFD modeling and simulation of energy/environmental facilities
+  - Water electrolysis, CCUS, DAC, cooling, 
   - CFD Automation
-  - Renewable energy, Hydrogen energy, Energy efficiency, Clean energy
 
 education:
   title: Education & Experiences
@@ -132,23 +131,39 @@ experiences:
   title: Research Projects
   icon: project-diagram
   info:
-  - role: role
-    time: 2026 - present
-    company: KETEP
+  - role: PEM 수전해용 다공성 확산층 및 분리판 원가 저감을 위한 소재 및 양산 공정 기술 개발 (KETEP)
+    time: 2026 &ndash; present
+    company: 참여연구원
+  
+  - role: 직접공기포집(DAC)용 고체포집제 성능 고도화 및 200 kg/일급 저차압 고정층 연속 시스템 개발 (NRF)
+    time: 2026 &ndash; present
+    company: 참여연구원
 
-  - role: role
-    time: 2026 - present
-    company: KETEP
+  - role: 네거티브 에미션 구현을 위한 구조화 흡착제 기반의 스케일업 가능한 저비용·고효율 직접공기포집 기술개발 (NRF)
+    time: 2026 &ndash; present
+    company: 참여연구원
 
-  - role: role
-    time: 2026 - present
-    company: KETEP
+  - role: High-TDP Chip 대응 및 데이터 서버 냉각 에너지 50% 절약을 위한 고 열유속 최소 액침 기술 개발 (KIER)
+    time: 2025 &ndash; present
+    company: 참여연구원
 
-  - role: 참여연구원
-    time: 2024 &ndash; 2026
-    company: 실내 CO2 포집 기능이 탑재된 가정용 고급 공기청정기 개발
+  - role: 포집비용 30% 절감을 위한 CO2 포집 공정 및 흡수제 고도화 기술 개발 (KIER)
+    time: 2025 &ndash; present
+    company: 참여연구원
 
-  - role: 직접공기포집용 고체흡수제 원천 기술 및 10 kg/일 규모 저차압 고정층 연속 시스템 개발
+  - role: 금속지지형 SOEC 셀 및 셀-분리판 일체형 스택 기술 (KIER)
+    time: 2025 &ndash; present
+    company: 참여연구원
+
+  - role: 국가수소중점연구실 알칼라인 수전해 기술개발 (NRF)
+    time: 2024 &ndash; present
+    company: 참여연구원
+
+  - role: 실내 CO2 포집 기능이 탑재된 가정용 고급 공기청정기 개발 (KIER)
+    time: 2024 &ndash; 2025
+    company: 참여연구원
+
+  - role: 직접공기포집용 고체흡수제 원천 기술 및 10 kg/일 규모 저차압 고정층 연속 시스템 개발 (NRF)
     time: 2024 &ndash; 2026
     company: 참여연구원
 
