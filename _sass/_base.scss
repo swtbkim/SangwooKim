@@ -77,25 +77,14 @@ p {
 
   .avatar {
     //used for profile image
-    // circular frame; the photo inside is zoomed and centred on the face
-    width: 150px;
-    height: 150px;
-    margin: 0 auto 18px;
-    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    object-fit: cover; // crop non-square photos to a circle
+    object-position: center top;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
     border-radius: 100%;
-    border: 3px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-    background: #fff;
-    img {
-      // 92% of frame width on a white frame (photo bg is white), head centred
-      // (tuned for a 413x531 passport-style photo)
-      display: block;
-      width: 92%;
-      max-width: none;
-      margin-left: 4%;
-      margin-top: 1%;
-      clip-path: inset(2px); // hide the 1px grey border baked into the photo
-    }
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
   .contact-list {
     .fas,
