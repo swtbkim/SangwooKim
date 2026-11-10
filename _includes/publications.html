@@ -26,7 +26,7 @@
       <div class="publication-title">{{ publication.title }}</div>
     {% endif %}
     <div class="publication-authors">{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
+    <div class="publication-conference">{{ publication.conference | markdownify | remove: '<p>' | remove: '</p>' }}</div>
   </li><!--//item-->
   {% endfor %}
   </ol>

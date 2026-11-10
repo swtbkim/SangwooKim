@@ -2,7 +2,7 @@
 # 이 파일만 수정하면 사이트 전체 내용이 바뀝니다.
 # YAML 문법 오류(들여쓰기, 콜론 뒤 공백 등) 하나로도 빌드가 실패할 수 있으니 주의하세요.
 # 섹션을 숨기려면 해당 블록 전체를 주석(#) 처리하면 됩니다.
-# 아래 내용은 모두 예시(placeholder)입니다. 본인 정보로 교체하세요.
+# "placeholder" 주석이 달린 항목은 CV에 없어 예시로 남겨둔 내용입니다. 본인 정보로 교체하세요.
 #
 
 sidebar:
@@ -12,15 +12,16 @@ sidebar:
 
   # Profile information
   name: 김상우 (Kim, Sangwoo)
-  tagline: Ph.D.
+  tagline: Ph.D., Senior Researcher
   avatar: profile.jpg  # /assets/images/ 폴더의 사진 파일명 (원형으로 자동 크롭됨)
 
   # Sidebar links (사용하지 않는 항목은 비워두거나 주석 처리)
   email: sangwoo.kim@kier.re.kr
-  phone: +82-42-860-3218
-  website: https://swtbkim.github.io/SangwooKim         # https:// 포함 전체 URL
+  email2: sangwoo.kim.2023@gmail.com
+  # phone: +82-10-0000-0000   # 공개 웹페이지라 기본은 숨김. 노출하려면 주석 해제
+  website:          # https:// 포함 전체 URL
   linkedin:         # 아이디만
-  github: github.com/swtbkim
+  github: swtbkim
   orcid:            # 예: 0000-0000-0000-0000
   scholar:          # Google Scholar user id (citations?user= 뒤의 값)
   pdf-en:           # 영문 CV PDF 링크
@@ -30,133 +31,180 @@ sidebar:
     title: Languages
     info:
     - idiom: Korean
-      level: Native
-
+      level: Native                            # placeholder
     - idiom: English
-      level: Professional working proficiency
-
-  # interests:
-  #   title: Interests
-  #   info:
-  #   - item: Running
-  #     link:
+      level: Professional working proficiency  # placeholder
 
 career-profile:
   title: Introduction
+  # placeholder - 자기소개를 작성하세요
   summary: |
     여기에 자신을 소개하는 짧은 글을 작성하세요. 연구 분야, 관심사, 현재 소속과
     하고 있는 일을 2~4문장 정도로 요약하면 좋습니다.
-
-    Write a short introduction here: research interests, current position,
-    and what you are working on. **Markdown** 과 [링크](https://github.com)를 사용할 수 있습니다.
 
 education:
   title: Education
   info:
   - degree: Ph.D. in Mechanical Engineering
-    university: Yonsei University
-    time: 2016 - 2023
+    university: Yonsei University, Seoul, South Korea
+    time: Feb 2023
+    details: |
+      Nano Energy/Environment Convergence System Laboratory (Prof. Jungho Hwang)
+
+      Thesis: *A numerical study on the characteristics of electrostatic precipitators emerging in a small-scale bioaerosol sampler*
 
   - degree: B.S. in Mechanical Engineering
-    university: Korea University
-    time: 2009 - 2015
+    university: Korea University, Seoul, South Korea
+    time: Feb 2015
 
 # ---------------------------------------------------------------
 # Publications : publications / publications2 / publications3 세 개까지 사용 가능
 # icon 은 Font Awesome 5 아이콘 이름 (https://fontawesome.com/v5/search)
-# authors 에서 본인 이름은 **굵게** 표시할 수 있음
+# authors / conference 는 markdown 사용 가능 (**굵게**, *기울임*)
 # ---------------------------------------------------------------
 publications:
   title: Journal Articles
   icon: file-alt
+  intro: "\\* Corresponding author, † Co-first author"
   papers:
-  - title: "Title of the journal paper goes here"
-    link: "#"
-    authors: "**Sangwoo Kim**, Coauthor A, Coauthor B"
-    conference: "Journal Name, Vol. 00, pp. 000-000, 2026"
+  - title: "Application of ionic wind in sampling of bioaerosols: collection efficiency, ROS/RNS production, and viability assessment"
+    link:
+    authors: 'Massoudifarid, M., Piri, A., Farid, M. M., Jung, J., **Kim, S.**, & Hwang, J.\*'
+    conference: "*Journal of Hazardous Materials*, 483, 136612 (2025)"
 
-  - title: "Another journal paper title"
-    link: "#"
-    authors: "Coauthor A, **Sangwoo Kim**, Coauthor B"
-    conference: "Journal Name, Vol. 00, 000000, 2025"
+  - title: "Effect of gas temperature on carbon soot oxidation via non-thermal plasma: two-dimensional numerical study integrating reactive flow and discharge models"
+    link:
+    authors: 'Nam, J.†, **Kim, S.†**, & Hwang, J.\*'
+    conference: "*Environmental Science and Pollution Research*, 31, 15580-15596 (2024)"
 
+  - title: "Numerical methodology to evaluate unipolar saturation current limit of DC corona discharge in complex geometries"
+    link:
+    authors: '**Kim, S.**, & Hwang, J.\*'
+    conference: "*Scientific Reports*, 12(1), 14252 (2022)"
+
+  - title: "Numerical investigation of the separation mechanism in an electrostatic aerosol-to-hydrosol separator by glow corona discharge: a quantitative comparison of the effects of ionic wind and Coulomb force"
+    link:
+    authors: '**Kim, S.**, Yu, T. U., & Hwang, J.\*'
+    conference: "*Plasma Sources Science and Technology*, 29(7), 075008 (2020)"
+
+  - title: "Two-step numerical procedure on the removal process of gaseous potassium chloride generated from waste incineration via the injection of sulfate-based additives"
+    link:
+    authors: '**Kim, S.**, Kim, B., Lee, U., & Hwang, J.\*'
+    conference: "*Waste Management*, 107, 36-43 (2020)"
+
+# placeholder
 publications2:
   title: Conference Proceedings
   icon: users
   papers:
   - title: "Conference paper title"
     link:
-    authors: "**Sangwoo Kim**, Coauthor A"
+    authors: "**Kim, S.**, Coauthor A"
     conference: "Proceedings of the OO Conference, City, Country, 2025"
 
+# placeholder
 publications3:
   title: Patents
   icon: lightbulb
   papers:
   - title: "Patent title"
     link:
-    authors: "**Sangwoo Kim**, Coauthor A"
+    authors: "**Kim, S.**, Coauthor A"
     conference: "KR 10-0000000, 2025"
 
 # ---------------------------------------------------------------
 # Experiences : experiences / experiences2 / experiences3 세 개까지 사용 가능
 # ---------------------------------------------------------------
 experiences:
-  title: Research Experience
-  icon: flask
+  title: Experience
+  icon: briefcase
   info:
-  - role: Graduate Research Assistant
-    time: 2021 - present
-    company: OO Lab, OO University
-    details: |
-      - 연구 내용 요약 1
-      - 연구 내용 요약 2
+  - role: Senior Researcher
+    time: Oct 2023 - Present
+    company: Energy Platform Research Laboratory, Korea Institute of Energy Research (KIER), Daejeon, South Korea
+
+  - role: Defect Engineering
+    time: Mar 2023 - Sep 2023
+    company: SK Hynix, Icheon, South Korea
 
 experiences2:
   title: Research Projects
   icon: project-diagram
   info:
-  - role: "Project title (과제명)"
-    time: 2024 - 2026
-    company: Funding agency (지원 기관)
-    details: |
-      참여 역할과 주요 성과를 간단히 작성하세요.
+  # Hydrogen Energy
+  - role: Cost-effective manufacturing of material and mass production processes for PTLs and bipolar plates in PEM water electrolysis
+    time: 2026 - present
+    company: Hydrogen Energy · KETEP
 
+  - role: Development of materials, cells and 0.4 Nm³/h-class stacks for domestic production of reduced-temperature (≤650℃) solid oxide electrolysis technologies
+    time: 2024 - 2026
+    company: Hydrogen Energy · KETEP
+
+  - role: Metal-Supported SOEC Cell and Integrated Cell-Interconnect Stack Technology
+    time: 2024 - present
+    company: Hydrogen Energy · KIER
+
+  - role: Development of Materials, Cells, Stacks, and 6 Nm³/h H₂ Class Systems for Enhanced Durability and Efficiency of Intermediate-Temperature (700℃) SOECs
+    time: 2024 - present
+    company: Hydrogen Energy · NRF
+
+  - role: Alkaline electrolysis technology development for National hydrogen key technology center
+    time: 2024 - present
+    company: Hydrogen Energy · NRF
+
+  # Energy Efficiency
+  - role: Development of high heat flux minimum immersion cooling technology for high-TDP chip support and data server cooling energy saving of 50%
+    time: 2025 - present
+    company: Energy Efficiency · KIER
+
+  # Clean Energy
+  - role: Development of Scalable, Low-Cost, and High-Efficiency Adsorption-Based Direct Air Capture Technology for Achieving Negative Emissions
+    time: 2026 - present
+    company: Clean Energy · (funding agency)   # placeholder: CV 원본에 기관명 누락
+
+  - role: Development of low-cost CO₂ capture technology tailored to emission sources for technology export
+    time: 2025 - present
+    company: Clean Energy · NRF
+
+  - role: Development of Advanced CO₂ Capture Process and Absorbents Technology for 30% Cost Reduction
+    time: 2025 - present
+    company: Clean Energy · KIER
+
+  - role: Development of performance-enhanced solid sorbents and 200 kg/day-scale low pressure-drop, continuously operated fixed-bed system for direct air capture
+    time: 2026 - present
+    company: Clean Energy · (funding agency)   # placeholder: CV 원본에 기관명 누락
+
+  - role: Development of advanced solid sorbent and 10 kg/day-scale low differential pressure continuous fixed-bed system for direct air capture
+    time: 2024 - 2026
+    company: Clean Energy · NRF
+
+  - role: 철강용 석탄 대체 및 탄소 네거티브 PyCCS를 위한 biochar 생산 실증 (5톤/일)
+    time: 2024 - 2025
+    company: Clean Energy · KIER
+
+  - role: 실내 CO₂ 포집 기능이 탑재된 가정용 고급 공기청정기 개발
+    time: "2024"
+    company: Clean Energy · KIER
+
+  - role: Development of methane direct pyrolysis technology using molten metal
+    time: "2024"
+    company: Clean Energy · KIER
+
+# placeholder
 experiences3:
   title: Honors &amp; Awards
   icon: award
   info:
-  - role: Best Paper Award
-    time: 2025
-    company: OO Conference
-
-  - role: Scholarship
-    time: 2023
-    company: OO Foundation
-
-# projects:
-#   title: Side Projects
-#   intro: >
-#     개인 프로젝트를 소개하는 섹션입니다.
-#   assignments:
-#   - title: Project name
-#     link: "#"
-#     tagline: "One-line description"
+  - role: Award name
+    time: "2025"
+    company: Awarding organization
 
 skills:
   title: Skills
   toolset:
-  - name: Python
-    level: 90%
-
-  - name: C / C++
-    level: 80%
-
-  - name: ANSYS Fluent (UDF)
-    level: 85%
-
-  - name: MATLAB
-    level: 75%
+  # level 을 지정하면 막대 그래프, items 를 지정하면 텍스트로 표시
+  - name: "Scientific Computing:"
+    items: ANSYS Fluent, OpenFOAM, Python, C
 
 footer: >
   &copy; Sangwoo Kim &middot; Built with <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">online-cv</a> &middot; Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

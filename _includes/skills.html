@@ -11,12 +11,16 @@
   <div class="skillset">
     {% for skill in skills.toolset %}
     <div class="item">
+      {% if skill.level %}
       <h3 class="level-title">{{ skill.name }}</h3>
       {% assign skill_level = 'width: ' | append: skill.level %}
       <div class="level-bar">
         <div class="level-bar-inner" style="{{skill_level}}"></div>
       </div>
       <!--//level-bar-->
+      {% else %}
+      <div class="skill-group"><span class="skill-group-name">{{ skill.name }}</span> {{ skill.items }}</div>
+      {% endif %}
     </div>
     <!--//item-->
     {% endfor %}

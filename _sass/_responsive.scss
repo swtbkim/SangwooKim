@@ -21,10 +21,13 @@
     position: static;
     display: block;
     margin-top: 5px;
+    margin-left: 0;
+    text-align: left;
   }
 
   .main-wrapper .upper-row {
     margin-bottom: 0;
+    flex-direction: column;
   }
 }
 /* Small devices (tablets, 768px and up) */

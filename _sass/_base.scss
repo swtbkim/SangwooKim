@@ -135,6 +135,14 @@ p {
       margin-bottom: 0px;
     }
   }
+  .education-container .edu-details {
+    margin-top: 6px;
+    font-size: 12px;
+    color: rgba(256, 256, 256, 0.6);
+    p {
+      margin-bottom: 4px;
+    }
+  }
   .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
@@ -203,16 +211,17 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
-    flex: 75%;
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
   .time,
   .cert-url {
-    position: absolute;
-    right: 0;
-    top: 0;
     color: $text-grey;
-    flex: 25%;
+    flex: 0 0 auto;
+    white-space: nowrap;
+    margin-left: 20px;
+    text-align: right;
   }
   .company,
   .recommendation-role,
@@ -291,6 +300,14 @@ p {
 }
 
 .skillset {
+  .skill-group {
+    color: $text-color-secondary;
+  }
+  .skill-group-name {
+    font-weight: 600;
+    color: $text-color;
+    margin-right: 6px;
+  }
   .item {
     margin-bottom: 15px;
     overflow: hidden;
