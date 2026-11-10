@@ -47,10 +47,10 @@ research-interests:
   icon: microscope   # Font Awesome 5 icon name
   # placeholder - 연구 관심 분야를 한 줄씩 작성하세요 (markdown 사용 가능)
   info:
-  - Research interest 1
-  - Research interest 2
-  - Research interest 3
-  - Research interest 4
+  - CFD modeling of energy/environmental facilities
+  - Single/multiphase flow, reacting flow, particulate flow, non-thermal plasma
+  - CFD Automation
+  - Renewable energy, Hydrogen energy, Energy efficiency, Clean energy
 
 education:
   title: Education & Experiences
@@ -135,6 +135,26 @@ experiences:
   - role: role
     time: 2026 - present
     company: KETEP
+
+  - role: role
+    time: 2026 - present
+    company: KETEP
+
+  - role: role
+    time: 2026 - present
+    company: KETEP
+
+  - role: 참여연구원
+    time: 2024 &ndash; 2026
+    company: 실내 CO2 포집 기능이 탑재된 가정용 고급 공기청정기 개발
+
+  - role: 직접공기포집용 고체흡수제 원천 기술 및 10 kg/일 규모 저차압 고정층 연속 시스템 개발
+    time: 2024 &ndash; 2026
+    company: 참여연구원
+
+  - role: 액체금속을 이용한 메탄 직접 열분해 기술 개발 (KETEP)
+    time: 2024
+    company: 참여연구원
 
 # experiences3:
 #   title: Honors &amp; Awards
