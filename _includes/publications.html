@@ -1,0 +1,35 @@
+{% assign pkey = include.key | default: "publications" %}
+{% assign publications = site.data.data[pkey] %}
+{% if publications %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-{{ publications.icon | default: 'file-alt' }} fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ publications.title }}
+  </h2>
+
+  {% if publications.intro %}
+  <div class="intro">
+    {{ publications.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  <ol class="publication-list">
+  {% for publication in publications.papers %}
+  <li class="item">
+    {% if publication.link %}
+      <div class="publication-title"><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></div>
+    {% else %}
+      <div class="publication-title">{{ publication.title }}</div>
+    {% endif %}
+    <div class="publication-authors">{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+    <div class="publication-conference">{{ publication.conference }}</div>
+  </li><!--//item-->
+  {% endfor %}
+  </ol>
+
+</section><!--//section-->
+{% endif %}

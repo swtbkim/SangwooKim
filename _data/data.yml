@@ -1,0 +1,166 @@
+#
+# 이 파일만 수정하면 사이트 전체 내용이 바뀝니다.
+# YAML 문법 오류(들여쓰기, 콜론 뒤 공백 등) 하나로도 빌드가 실패할 수 있으니 주의하세요.
+# 섹션을 숨기려면 해당 블록 전체를 주석(#) 처리하면 됩니다.
+# 아래 내용은 모두 예시(placeholder)입니다. 본인 정보로 교체하세요.
+#
+
+sidebar:
+  position: left   # left or right
+  about: False     # True 로 바꾸면 "How to use" 안내 블록이 사이드바에 나타남
+  education: True  # False 로 바꾸면 학력이 본문으로 이동
+
+  # Profile information
+  name: 김상우 (Kim, Sangwoo)
+  tagline: Ph.D. Candidate
+  avatar: profile.png  # /assets/images/ 폴더에 100x100 정사각형 사진을 넣고 파일명 입력
+
+  # Sidebar links (사용하지 않는 항목은 비워두거나 주석 처리)
+  email: your.name@example.com
+  phone:
+  website:          # https:// 포함 전체 URL
+  linkedin:         # 아이디만
+  github: sangwookim
+  orcid:            # 예: 0000-0000-0000-0000
+  scholar:          # Google Scholar user id (citations?user= 뒤의 값)
+  pdf-en:           # 영문 CV PDF 링크
+  pdf-kr:           # 국문 CV PDF 링크
+
+  languages:
+    title: Languages
+    info:
+    - idiom: Korean
+      level: Native
+
+    - idiom: English
+      level: Professional working proficiency
+
+  # interests:
+  #   title: Interests
+  #   info:
+  #   - item: Running
+  #     link:
+
+career-profile:
+  title: Introduction
+  summary: |
+    여기에 자신을 소개하는 짧은 글을 작성하세요. 연구 분야, 관심사, 현재 소속과
+    하고 있는 일을 2~4문장 정도로 요약하면 좋습니다.
+
+    Write a short introduction here: research interests, current position,
+    and what you are working on. **Markdown** 과 [링크](https://github.com)를 사용할 수 있습니다.
+
+education:
+  title: Education
+  info:
+  - degree: Ph.D. in Mechanical Engineering
+    university: OO University
+    time: 2023 - present
+
+  - degree: M.S. in Mechanical Engineering
+    university: OO University
+    time: 2021 - 2023
+
+  - degree: B.S. in Mechanical Engineering
+    university: OO University
+    time: 2017 - 2021
+
+# ---------------------------------------------------------------
+# Publications : publications / publications2 / publications3 세 개까지 사용 가능
+# icon 은 Font Awesome 5 아이콘 이름 (https://fontawesome.com/v5/search)
+# authors 에서 본인 이름은 **굵게** 표시할 수 있음
+# ---------------------------------------------------------------
+publications:
+  title: Journal Articles
+  icon: file-alt
+  papers:
+  - title: "Title of the journal paper goes here"
+    link: "#"
+    authors: "**Sangwoo Kim**, Coauthor A, Coauthor B"
+    conference: "Journal Name, Vol. 00, pp. 000-000, 2026"
+
+  - title: "Another journal paper title"
+    link: "#"
+    authors: "Coauthor A, **Sangwoo Kim**, Coauthor B"
+    conference: "Journal Name, Vol. 00, 000000, 2025"
+
+publications2:
+  title: Conference Proceedings
+  icon: users
+  papers:
+  - title: "Conference paper title"
+    link:
+    authors: "**Sangwoo Kim**, Coauthor A"
+    conference: "Proceedings of the OO Conference, City, Country, 2025"
+
+publications3:
+  title: Patents
+  icon: lightbulb
+  papers:
+  - title: "Patent title"
+    link:
+    authors: "**Sangwoo Kim**, Coauthor A"
+    conference: "KR 10-0000000, 2025"
+
+# ---------------------------------------------------------------
+# Experiences : experiences / experiences2 / experiences3 세 개까지 사용 가능
+# ---------------------------------------------------------------
+experiences:
+  title: Research Experience
+  icon: flask
+  info:
+  - role: Graduate Research Assistant
+    time: 2021 - present
+    company: OO Lab, OO University
+    details: |
+      - 연구 내용 요약 1
+      - 연구 내용 요약 2
+
+experiences2:
+  title: Research Projects
+  icon: project-diagram
+  info:
+  - role: "Project title (과제명)"
+    time: 2024 - 2026
+    company: Funding agency (지원 기관)
+    details: |
+      참여 역할과 주요 성과를 간단히 작성하세요.
+
+experiences3:
+  title: Honors &amp; Awards
+  icon: award
+  info:
+  - role: Best Paper Award
+    time: 2025
+    company: OO Conference
+
+  - role: Scholarship
+    time: 2023
+    company: OO Foundation
+
+# projects:
+#   title: Side Projects
+#   intro: >
+#     개인 프로젝트를 소개하는 섹션입니다.
+#   assignments:
+#   - title: Project name
+#     link: "#"
+#     tagline: "One-line description"
+
+skills:
+  title: Skills
+  toolset:
+  - name: Python
+    level: 90%
+
+  - name: C / C++
+    level: 80%
+
+  - name: ANSYS Fluent (UDF)
+    level: 85%
+
+  - name: MATLAB
+    level: 75%
+
+footer: >
+  &copy; Sangwoo Kim &middot; Built with <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">online-cv</a> &middot; Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
