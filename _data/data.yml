@@ -38,20 +38,27 @@ career-profile:
   title: Introduction
   # placeholder - 자기소개를 작성하세요
   summary: |
-    여기에 자신을 소개하는 짧은 글을 작성하세요. 연구 분야, 관심사, 현재 소속과
-    하고 있는 일을 2~4문장 정도로 요약하면 좋습니다.
+    CFD engineer
 
 education:
-  title: Education
+  title: Education & Experiences
   info:
+  - degree: Senior Researcher
+    university: Energy Platform Research Laboratory, Korea Institute of Energy Research (KIER), Daejeon, South Korea
+    time: Mar 2016&ndash;Feb 2023
+
+  - degree: CFD Engineer
+    university: Defect Engineering White, SK hynix, Icheon, South Korea
+    time: Mar 2023&ndash;Sep 2023
+
   - degree: Ph.D. in Mechanical Engineering
     university: Yonsei University, Seoul, South Korea
-    time: 2016&ndash;2023
+    time: Mar 2016&ndash;Feb 2023
     details:
 
   - degree: B.S. in Mechanical Engineering
     university: Korea University, Seoul, South Korea
-    time: 2009 &ndash; 2015
+    time: Mar 2009&ndash;Feb 2015
 
 # ---------------------------------------------------------------
 # Publications : publications / publications2 / publications3 세 개까지 사용 가능
@@ -70,7 +77,7 @@ publications:
 
   - title: "Effect of gas temperature on carbon soot oxidation via non-thermal plasma: two-dimensional numerical study integrating reactive flow and discharge models"
     link:
-    authors: 'Nam, J.†, **Kim, S.†**, & Hwang, J.\* , †co-first authors'
+    authors: 'Nam, J.†, **Kim, S.†**, & Hwang, J.\*'
     conference: "*Environmental Science and Pollution Research*, 31, 15580-15596 (2024)"
 
   - title: "Numerical methodology to evaluate unipolar saturation current limit of DC corona discharge in complex geometries"
@@ -112,18 +119,6 @@ publications3:
 # Experiences : experiences / experiences2 / experiences3 세 개까지 사용 가능
 # ---------------------------------------------------------------
 experiences:
-  title: Experience
-  icon: briefcase
-  info:
-  - role: Senior Researcher
-    time: Oct 2023 - Present
-    company: Energy Platform Research Laboratory, Korea Institute of Energy Research (KIER), Daejeon, South Korea
-
-  - role: Defect Engineering
-    time: Mar 2023 - Sep 2023
-    company: SK Hynix, Icheon, South Korea
-
-experiences2:
   title: Research Projects
   icon: project-diagram
   info:
