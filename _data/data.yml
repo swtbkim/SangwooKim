@@ -19,8 +19,10 @@ sidebar:
   email: sangwoo.kim@kier.re.kr
   phone: +82-42-860-3218   # 공개 웹페이지라 기본은 숨김. 노출하려면 주석 해제
   website:          # https:// 포함 전체 URL
+  website-text: Website   # 화면에 보이는 글자 (비우면 "Website")
   linkedin:         # 아이디만
-  github: swtbkim
+  github: swtbkim         # 링크: https://github.com/<아이디>
+  github-text: GitHub     # 화면에 보이는 글자 (비우면 "GitHub")
   orcid:            # 예: 0000-0000-0000-0000
   scholar:          # Google Scholar user id (citations?user= 뒤의 값)
   pdf-en:           # 영문 CV PDF 링크
