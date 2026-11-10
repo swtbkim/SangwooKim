@@ -12,13 +12,12 @@ sidebar:
 
   # Profile information
   name: 김상우 (Kim, Sangwoo)
-  tagline: Ph.D., Senior Researcher
+  tagline: Ph.D.
   avatar: profile.jpg  # /assets/images/ 폴더의 사진 파일명 (원형으로 자동 크롭됨)
 
   # Sidebar links (사용하지 않는 항목은 비워두거나 주석 처리)
   email: sangwoo.kim@kier.re.kr
-  email2: sangwoo.kim.2023@gmail.com
-  # phone: +82-10-0000-0000   # 공개 웹페이지라 기본은 숨김. 노출하려면 주석 해제
+  phone: +82-42-860-3218   # 공개 웹페이지라 기본은 숨김. 노출하려면 주석 해제
   website:          # https:// 포함 전체 URL
   linkedin:         # 아이디만
   github: swtbkim
@@ -47,15 +46,12 @@ education:
   info:
   - degree: Ph.D. in Mechanical Engineering
     university: Yonsei University, Seoul, South Korea
-    time: Feb 2023
-    details: |
-      Nano Energy/Environment Convergence System Laboratory (Prof. Jungho Hwang)
-
-      Thesis: *A numerical study on the characteristics of electrostatic precipitators emerging in a small-scale bioaerosol sampler*
+    time: 2016--2023
+    details:
 
   - degree: B.S. in Mechanical Engineering
     university: Korea University, Seoul, South Korea
-    time: Feb 2015
+    time: 2009--2015
 
 # ---------------------------------------------------------------
 # Publications : publications / publications2 / publications3 세 개까지 사용 가능
@@ -74,7 +70,7 @@ publications:
 
   - title: "Effect of gas temperature on carbon soot oxidation via non-thermal plasma: two-dimensional numerical study integrating reactive flow and discharge models"
     link:
-    authors: 'Nam, J.†, **Kim, S.†**, & Hwang, J.\*'
+    authors: 'Nam, J.†, **Kim, S.†**, & Hwang, J.\* , †co-first authors'
     conference: "*Environmental Science and Pollution Research*, 31, 15580-15596 (2024)"
 
   - title: "Numerical methodology to evaluate unipolar saturation current limit of DC corona discharge in complex geometries"
@@ -131,64 +127,9 @@ experiences2:
   title: Research Projects
   icon: project-diagram
   info:
-  # Hydrogen Energy
-  - role: Cost-effective manufacturing of material and mass production processes for PTLs and bipolar plates in PEM water electrolysis
+  - role: role
     time: 2026 - present
-    company: Hydrogen Energy · KETEP
-
-  - role: Development of materials, cells and 0.4 Nm³/h-class stacks for domestic production of reduced-temperature (≤650℃) solid oxide electrolysis technologies
-    time: 2024 - 2026
-    company: Hydrogen Energy · KETEP
-
-  - role: Metal-Supported SOEC Cell and Integrated Cell-Interconnect Stack Technology
-    time: 2024 - present
-    company: Hydrogen Energy · KIER
-
-  - role: Development of Materials, Cells, Stacks, and 6 Nm³/h H₂ Class Systems for Enhanced Durability and Efficiency of Intermediate-Temperature (700℃) SOECs
-    time: 2024 - present
-    company: Hydrogen Energy · NRF
-
-  - role: Alkaline electrolysis technology development for National hydrogen key technology center
-    time: 2024 - present
-    company: Hydrogen Energy · NRF
-
-  # Energy Efficiency
-  - role: Development of high heat flux minimum immersion cooling technology for high-TDP chip support and data server cooling energy saving of 50%
-    time: 2025 - present
-    company: Energy Efficiency · KIER
-
-  # Clean Energy
-  - role: Development of Scalable, Low-Cost, and High-Efficiency Adsorption-Based Direct Air Capture Technology for Achieving Negative Emissions
-    time: 2026 - present
-    company: Clean Energy · (funding agency)   # placeholder: CV 원본에 기관명 누락
-
-  - role: Development of low-cost CO₂ capture technology tailored to emission sources for technology export
-    time: 2025 - present
-    company: Clean Energy · NRF
-
-  - role: Development of Advanced CO₂ Capture Process and Absorbents Technology for 30% Cost Reduction
-    time: 2025 - present
-    company: Clean Energy · KIER
-
-  - role: Development of performance-enhanced solid sorbents and 200 kg/day-scale low pressure-drop, continuously operated fixed-bed system for direct air capture
-    time: 2026 - present
-    company: Clean Energy · (funding agency)   # placeholder: CV 원본에 기관명 누락
-
-  - role: Development of advanced solid sorbent and 10 kg/day-scale low differential pressure continuous fixed-bed system for direct air capture
-    time: 2024 - 2026
-    company: Clean Energy · NRF
-
-  - role: 철강용 석탄 대체 및 탄소 네거티브 PyCCS를 위한 biochar 생산 실증 (5톤/일)
-    time: 2024 - 2025
-    company: Clean Energy · KIER
-
-  - role: 실내 CO₂ 포집 기능이 탑재된 가정용 고급 공기청정기 개발
-    time: "2024"
-    company: Clean Energy · KIER
-
-  - role: Development of methane direct pyrolysis technology using molten metal
-    time: "2024"
-    company: Clean Energy · KIER
+    company: KETEP
 
 # placeholder
 experiences3:
