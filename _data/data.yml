@@ -17,9 +17,9 @@ sidebar:
 
   # Sidebar links (사용하지 않는 항목은 비워두거나 주석 처리)
   email: sangwoo.kim@kier.re.kr
-  phone: +82-42-860-3218   # 공개 웹페이지라 기본은 숨김. 노출하려면 주석 해제
-  website:          # https:// 포함 전체 URL
-  website-text: Website   # 화면에 보이는 글자 (비우면 "Website")
+  phone: +82-42-860-3218
+  website: https://kier-ai-cs.github.io/home/         # https:// 포함 전체 URL
+  website-text: Lab Homepage   # 화면에 보이는 글자 (비우면 "Website")
   linkedin:         # 아이디만
   github: swtbkim         # 링크: https://github.com/<아이디>
   github-text: GitHub     # 화면에 보이는 글자 (비우면 "GitHub")
