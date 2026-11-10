@@ -143,6 +143,34 @@ p {
       margin-bottom: 4px;
     }
   }
+  .skills-container {
+    .item {
+      margin-bottom: 12px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .skill-group-name {
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 3px;
+    }
+    .skill-items {
+      color: rgba(256, 256, 256, 0.6);
+    }
+    .level-title {
+      font-size: 14px;
+      margin: 0 0 6px;
+    }
+    .level-bar {
+      height: 8px;
+      background: rgba(255, 255, 255, 0.15);
+    }
+    .level-bar-inner {
+      height: 8px;
+      background: rgba(255, 255, 255, 0.7);
+    }
+  }
   .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
