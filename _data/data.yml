@@ -13,7 +13,7 @@ sidebar:
   # Profile information
   name: 김상우 (Kim, Sangwoo)
   tagline: Ph.D. Candidate
-  avatar: profile.png  # /assets/images/ 폴더에 100x100 정사각형 사진을 넣고 파일명 입력
+  avatar: profile.jpg  # /assets/images/ 폴더의 사진 파일명 (원형으로 자동 크롭됨)
 
   # Sidebar links (사용하지 않는 항목은 비워두거나 주석 처리)
   email: your.name@example.com
