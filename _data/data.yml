@@ -82,27 +82,27 @@ publications:
   intro: "\\* Corresponding author, † Co-first author"
   papers:
   - title: "Application of ionic wind in sampling of bioaerosols: collection efficiency, ROS/RNS production, and viability assessment"
-    link:
+    link: 10.1016/j.jhazmat.2024.136612
     authors: 'Massoudifarid, M., Piri, A., Farid, M. M., Jung, J., **Kim, S.**, & Hwang, J.\*'
     conference: "*Journal of Hazardous Materials*, 483, 136612 (2025)"
 
   - title: "Effect of gas temperature on carbon soot oxidation via non-thermal plasma: two-dimensional numerical study integrating reactive flow and discharge models"
-    link:
+    link: https://doi.org/10.1007/s11356-024-32116-4
     authors: 'Nam, J.†, **Kim, S.†**, & Hwang, J.\*'
     conference: "*Environmental Science and Pollution Research*, 31, 15580-15596 (2024)"
 
   - title: "Numerical methodology to evaluate unipolar saturation current limit of DC corona discharge in complex geometries"
-    link:
+    link: https://doi.org/10.1038/s41598-022-18144-5
     authors: '**Kim, S.**, & Hwang, J.\*'
     conference: "*Scientific Reports*, 12(1), 14252 (2022)"
 
   - title: "Numerical investigation of the separation mechanism in an electrostatic aerosol-to-hydrosol separator by glow corona discharge: a quantitative comparison of the effects of ionic wind and Coulomb force"
-    link:
+    link: https://doi.org/10.1088/1361-6595/ab993b
     authors: '**Kim, S.**, Yu, T. U., & Hwang, J.\*'
     conference: "*Plasma Sources Science and Technology*, 29(7), 075008 (2020)"
 
   - title: "Two-step numerical procedure on the removal process of gaseous potassium chloride generated from waste incineration via the injection of sulfate-based additives"
-    link:
+    link: 10.1016/j.wasman.2020.03.044
     authors: '**Kim, S.**, Kim, B., Lee, U., & Hwang, J.\*'
     conference: "*Waste Management*, 107, 36-43 (2020)"
 
