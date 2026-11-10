@@ -19,7 +19,8 @@ sidebar:
   education: True  # False 로 바꾸면 학력이 본문으로 이동
 
   # Profile information
-  name: 김상우 (Kim, Sangwoo)
+  name: Sangwoo Kim
+  name_ko: 김상우
   tagline: Ph.D.
   avatar: profile.jpg  # /assets/images/ 폴더의 사진 파일명 (원형으로 자동 크롭됨)
 
@@ -43,12 +44,12 @@ sidebar:
     info:
     - idiom: Korean
       idiom_ko: 한국어
-      level: Native                            # placeholder
-      level_ko: 모국어
+      level: Native
+      # level_ko: 모국어
     - idiom: English
       idiom_ko: 영어
-      level: Professional working proficiency  # placeholder
-      level_ko: 업무상 능숙
+      level: Professional working proficiency
+      level_ko: 업무상 능숙함
 
 career-profile:
   title: Introduction
@@ -78,27 +79,30 @@ education:
   - degree: Senior Researcher
     degree_ko: 선임연구원
     university: Energy Platform Research Laboratory, Korea Institute of Energy Research (KIER), Daejeon, South Korea
-    university_ko: 한국에너지기술연구원 에너지플랫폼연구실, 대전   # 초안: 공식 부서명 확인
+    university_ko: 한국에너지기술연구원 에너지플랫폼연구실
     time: Oct 2023 &ndash; present
+    time_ko: 2023.10. &ndash; 현재
 
   - degree: Defect Transport Simulation (DTS) Engineer
-    degree_ko: Defect Transport Simulation (DTS) 엔지니어
+    degree_ko: Defect Transport Simulation (DTS)
     university: Defect Engineering White, SK hynix, Icheon, South Korea
-    university_ko: SK하이닉스 Defect Engineering White, 이천
+    university_ko: SK하이닉스 Defect Engineering White
     time: Mar 2023 &ndash; Sep 2023
+    time_ko: 2023.03. &ndash; 2023.09.
 
   - degree: Ph.D. in Mechanical Engineering
-    degree_ko: 기계공학 박사
+    degree_ko: 공학박사(기계공학)
     university: Yonsei University, Seoul, South Korea
     university_ko: 연세대학교, 서울
     time: Mar 2016 &ndash; Feb 2023
-    details:
+    time_ko: 2016.03 &ndash; 2023.02.
 
   - degree: B.S. in Mechanical Engineering
-    degree_ko: 기계공학 학사
+    degree_ko: 공학사(기계공학)
     university: Korea University, Seoul, South Korea
     university_ko: 고려대학교, 서울
     time: Mar 2009 &ndash; Feb 2015
+    time_ko: 2009.03 &ndash; 2015.02.
 
 # ---------------------------------------------------------------
 # Publications : publications / publications2 / publications3 세 개까지 사용 가능
