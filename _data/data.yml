@@ -158,12 +158,12 @@ experiences:
     time: 2024 &ndash; present
     company: 참여연구원
 
-  - role: 실내 CO2 포집 기능이 탑재된 가정용 고급 공기청정기 개발 (KIER)
-    time: 2024 &ndash; 2025
-    company: 참여연구원
-
   - role: 직접공기포집용 고체흡수제 원천 기술 및 10 kg/일 규모 저차압 고정층 연속 시스템 개발 (NRF)
     time: 2024 &ndash; 2026
+    company: 참여연구원
+
+  - role: 실내 CO2 포집 기능이 탑재된 가정용 고급 공기청정기 개발 (KIER)
+    time: 2024 &ndash; 2025
     company: 참여연구원
 
   - role: 액체금속을 이용한 메탄 직접 열분해 기술 개발 (KETEP)
