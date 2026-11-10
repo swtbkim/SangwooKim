@@ -168,61 +168,61 @@ experiences:
   icon: project-diagram
   info:
   - role: "Cost-effective manufacturing of material and mass production processes for PTLs and bipolar plates in PEM water electrolysis (KETEP)"
-    role_ko: "PEM 수전해용 다공성 확산층 및 분리판 원가 저감을 위한 소재 및 양산 공정 기술 개발 (KETEP)"
+    role_ko: "PEM 수전해용 다공성 확산층 및 분리판 원가 저감을 위한 소재 및 양산 공정 기술 개발 (한국에너지기술평가원)"
     time: 2026 &ndash; present
     company: Participating Researcher
     company_ko: 참여연구원
 
   - role: "Development of performance-enhanced solid sorbents and 200 kg/day-scale low pressure-drop, continuously operated fixed-bed system for direct air capture (NRF)"
-    role_ko: "직접공기포집(DAC)용 고체포집제 성능 고도화 및 200 kg/일급 저차압 고정층 연속 시스템 개발 (NRF)"
+    role_ko: "직접공기포집(DAC)용 고체포집제 성능 고도화 및 200 kg/일급 저차압 고정층 연속 시스템 개발 (한국연구재단)"
     time: 2026 &ndash; present
     company: Participating Researcher
     company_ko: 참여연구원
 
   - role: "Development of Scalable, Low-Cost, and High-Efficiency Adsorption-Based Direct Air Capture Technology for Achieving Negative Emissions (NRF)"
-    role_ko: "네거티브 에미션 구현을 위한 구조화 흡착제 기반의 스케일업 가능한 저비용·고효율 직접공기포집 기술개발 (NRF)"
+    role_ko: "네거티브 에미션 구현을 위한 구조화 흡착제 기반의 스케일업 가능한 저비용·고효율 직접공기포집 기술개발 (한국연구재단)"
     time: 2026 &ndash; present
     company: Participating Researcher
     company_ko: 참여연구원
 
   - role: "Development of high heat flux minimum immersion cooling technology for high-TDP chip support and data server cooling energy saving of 50% (KIER)"
-    role_ko: "High-TDP Chip 대응 및 데이터 서버 냉각 에너지 50% 절약을 위한 고 열유속 최소 액침 기술 개발 (KIER)"
+    role_ko: "High-TDP Chip 대응 및 데이터 서버 냉각 에너지 50% 절약을 위한 고 열유속 최소 액침 기술 개발 (한국에너지기술연구원)"
     time: 2025 &ndash; present
     company: Participating Researcher
     company_ko: 참여연구원
 
   - role: "Development of Advanced CO₂ Capture Process and Absorbents Technology for 30% Cost Reduction (KIER)"
-    role_ko: "포집비용 30% 절감을 위한 CO2 포집 공정 및 흡수제 고도화 기술 개발 (KIER)"
+    role_ko: "포집비용 30% 절감을 위한 CO2 포집 공정 및 흡수제 고도화 기술 개발 (한국에너지기술연구원)"
     time: 2025 &ndash; present
     company: Participating Researcher
     company_ko: 참여연구원
 
   - role: "Metal-Supported SOEC Cell and Integrated Cell-Interconnect Stack Technology (KIER)"
-    role_ko: "금속지지형 SOEC 셀 및 셀-분리판 일체형 스택 기술 (KIER)"
+    role_ko: "금속지지형 SOEC 셀 및 셀-분리판 일체형 스택 기술 (한국에너지기술연구원)"
     time: 2025 &ndash; present
     company: Participating Researcher
     company_ko: 참여연구원
 
   - role: "Alkaline electrolysis technology development for National hydrogen key technology center (NRF)"
-    role_ko: "국가수소중점연구실 알칼라인 수전해 기술개발 (NRF)"
+    role_ko: "국가수소중점연구실 알칼라인 수전해 기술개발 (한국연구재단)"
     time: 2024 &ndash; present
     company: Participating Researcher
     company_ko: 참여연구원
 
   - role: "Development of advanced solid sorbent and 10 kg/day-scale low differential pressure continuous fixed-bed system for direct air capture (NRF)"
-    role_ko: "직접공기포집용 고체흡수제 원천 기술 및 10 kg/일 규모 저차압 고정층 연속 시스템 개발 (NRF)"
+    role_ko: "직접공기포집용 고체흡수제 원천 기술 및 10 kg/일 규모 저차압 고정층 연속 시스템 개발 (한국연구재단)"
     time: 2024 &ndash; 2026
     company: Participating Researcher
     company_ko: 참여연구원
 
   - role: "Development of a premium household air purifier with indoor CO₂ capture (KIER)"   # 초안 번역: CV에 영문 과제명 없음
-    role_ko: "실내 CO2 포집 기능이 탑재된 가정용 고급 공기청정기 개발 (KIER)"
+    role_ko: "실내 CO2 포집 기능이 탑재된 가정용 고급 공기청정기 개발 (한국에너지기술연구원)"
     time: 2024 &ndash; 2025
     company: Participating Researcher
     company_ko: 참여연구원
 
-  - role: "Development of methane direct pyrolysis technology using molten metal (KETEP)"
-    role_ko: "액체금속을 이용한 메탄 직접 열분해 기술 개발 (KETEP)"
+  - role: "Development of methane direct pyrolysis technology using molten metal (KIER)"
+    role_ko: "액체금속을 이용한 메탄 직접 열분해 기술 개발 (한국에너지기술연구원)"
     time: "2024"
     company: Participating Researcher
     company_ko: 참여연구원
