@@ -45,20 +45,20 @@ education:
   info:
   - degree: Senior Researcher
     university: Energy Platform Research Laboratory, Korea Institute of Energy Research (KIER), Daejeon, South Korea
-    time: Mar 2016&ndash;Feb 2023
+    time: Oct 2023 &ndash; present
 
-  - degree: CFD Engineer
+  - degree: Defect Transport Simulation (DTS) Engineer
     university: Defect Engineering White, SK hynix, Icheon, South Korea
-    time: Mar 2023&ndash;Sep 2023
+    time: Mar 2023 &ndash; Sep 2023
 
   - degree: Ph.D. in Mechanical Engineering
     university: Yonsei University, Seoul, South Korea
-    time: Mar 2016&ndash;Feb 2023
+    time: Mar 2016 &ndash; Feb 2023
     details:
 
   - degree: B.S. in Mechanical Engineering
     university: Korea University, Seoul, South Korea
-    time: Mar 2009&ndash;Feb 2015
+    time: Mar 2009 &ndash; Feb 2015
 
 # ---------------------------------------------------------------
 # Publications : publications / publications2 / publications3 세 개까지 사용 가능
@@ -95,25 +95,23 @@ publications:
     authors: '**Kim, S.**, Kim, B., Lee, U., & Hwang, J.\*'
     conference: "*Waste Management*, 107, 36-43 (2020)"
 
-# placeholder
-publications2:
-  title: Conference Proceedings
-  icon: users
-  papers:
-  - title: "Conference paper title"
-    link:
-    authors: "**Kim, S.**, Coauthor A"
-    conference: "Proceedings of the OO Conference, City, Country, 2025"
+# publications2:
+#   title: Conference Proceedings
+#   icon: users
+#   papers:
+#   - title: "Conference paper title"
+#     link:
+#     authors: "**Kim, S.**, Coauthor A"
+#     conference: "Proceedings of the OO Conference, City, Country, 2025"
 
-# placeholder
-publications3:
-  title: Patents
-  icon: lightbulb
-  papers:
-  - title: "Patent title"
-    link:
-    authors: "**Kim, S.**, Coauthor A"
-    conference: "KR 10-0000000, 2025"
+# publications3:
+#   title: Patents
+#   icon: lightbulb
+#   papers:
+#   - title: "Patent title"
+#     link:
+#     authors: "**Kim, S.**, Coauthor A"
+#     conference: "KR 10-0000000, 2025"
 
 # ---------------------------------------------------------------
 # Experiences : experiences / experiences2 / experiences3 세 개까지 사용 가능
@@ -126,14 +124,13 @@ experiences:
     time: 2026 - present
     company: KETEP
 
-# placeholder
-experiences3:
-  title: Honors &amp; Awards
-  icon: award
-  info:
-  - role: Award name
-    time: "2025"
-    company: Awarding organization
+# experiences3:
+#   title: Honors &amp; Awards
+#   icon: award
+#   info:
+#   - role: Award name
+#     time: "2025"
+#     company: Awarding organization
 
 skills:
   title: Skills
