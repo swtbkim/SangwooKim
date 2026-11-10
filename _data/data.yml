@@ -46,12 +46,12 @@ education:
   info:
   - degree: Ph.D. in Mechanical Engineering
     university: Yonsei University, Seoul, South Korea
-    time: 2016--2023
+    time: 2016&ndash;2023
     details:
 
   - degree: B.S. in Mechanical Engineering
     university: Korea University, Seoul, South Korea
-    time: 2009--2015
+    time: 2009 &ndash; 2015
 
 # ---------------------------------------------------------------
 # Publications : publications / publications2 / publications3 세 개까지 사용 가능
