@@ -4,21 +4,21 @@
 <div class="skills-container container-block">
 
   <h2 class="container-block-title">
-    {{ skills.title }}
+    {% include t.html o=skills k="title" %}
   </h2>
 
   <div class="skillset">
     {% for skill in skills.toolset %}
     <div class="item">
       {% if skill.level %}
-      <h3 class="level-title">{{ skill.name }}</h3>
+      <h3 class="level-title">{% include t.html o=skill k="name" %}</h3>
       {% assign skill_level = 'width: ' | append: skill.level %}
       <div class="level-bar">
         <div class="level-bar-inner" style="{{skill_level}}"></div>
       </div>
       {% else %}
-      <div class="skill-group-name">{{ skill.name | remove: ':' }}</div>
-      <div class="skill-items">{{ skill.items }}</div>
+      <div class="skill-group-name">{% capture sk_name %}{% include t.html o=skill k="name" %}{% endcapture %}{{ sk_name | remove: ':' }}</div>
+      <div class="skill-items">{% include t.html o=skill k="items" %}</div>
       {% endif %}
     </div>
     {% endfor %}
@@ -32,21 +32,21 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
-    {{ skills.title }}
+    {% include t.html o=skills k="title" %}
   </h2>
 
   <div class="skillset">
     {% for skill in skills.toolset %}
     <div class="item">
       {% if skill.level %}
-      <h3 class="level-title">{{ skill.name }}</h3>
+      <h3 class="level-title">{% include t.html o=skill k="name" %}</h3>
       {% assign skill_level = 'width: ' | append: skill.level %}
       <div class="level-bar">
         <div class="level-bar-inner" style="{{skill_level}}"></div>
       </div>
       <!--//level-bar-->
       {% else %}
-      <div class="skill-group"><span class="skill-group-name">{{ skill.name }}</span> {{ skill.items }}</div>
+      <div class="skill-group"><span class="skill-group-name">{% include t.html o=skill k="name" %}</span> {% include t.html o=skill k="items" %}</div>
       {% endif %}
     </div>
     <!--//item-->

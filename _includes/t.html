@@ -1,0 +1,18 @@
+{%- comment -%}
+  Translation helper.
+  Usage: {% include t.html o=OBJECT k="field" %}            -> plain text
+         {% include t.html o=OBJECT k="field" md=true %}    -> markdown block
+         {% include t.html o=OBJECT k="field" inline=true %} -> markdown, no <p>
+  On pages with "lang: ko" it prints OBJECT.field_ko if present, otherwise
+  OBJECT.field. For "time" fields without time_ko, "present" becomes "현재".
+{%- endcomment -%}
+{%- assign _tv = include.o[include.k] -%}
+{%- if page.lang == "ko" -%}
+  {%- assign _tk = include.k | append: "_ko" -%}
+  {%- if include.o[_tk] -%}
+    {%- assign _tv = include.o[_tk] -%}
+  {%- elsif include.k == "time" -%}
+    {%- assign _tv = _tv | replace: "present", "현재" | replace: "Present", "현재" -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if include.md -%}{{ _tv | markdownify }}{%- elsif include.inline -%}{{ _tv | markdownify | remove: '<p>' | remove: '</p>' | strip }}{%- else -%}{{ _tv }}{%- endif -%}

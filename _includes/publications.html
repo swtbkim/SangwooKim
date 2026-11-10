@@ -8,12 +8,12 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-{{ publications.icon | default: 'file-alt' }} fa-stack-1x fa-inverse"></i>
     </span>
-    {{ publications.title }}
+    {% include t.html o=publications k="title" %}
   </h2>
 
   {% if publications.intro %}
   <div class="intro">
-    {{ publications.intro | markdownify }}
+    {% include t.html o=publications k="intro" md=true %}
   </div><!--//intro-->
   {% endif %}
 
@@ -21,12 +21,12 @@
   {% for publication in publications.papers %}
   <li class="item">
     {% if publication.link %}
-      <div class="publication-title"><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></div>
+      <div class="publication-title"><a href="{{ publication.link }}" target="_blank">{% include t.html o=publication k="title" %}</a></div>
     {% else %}
-      <div class="publication-title">{{ publication.title }}</div>
+      <div class="publication-title">{% include t.html o=publication k="title" %}</div>
     {% endif %}
-    <div class="publication-authors">{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-    <div class="publication-conference">{{ publication.conference | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+    <div class="publication-authors">{% include t.html o=publication k="authors" inline=true %}</div>
+    <div class="publication-conference">{% include t.html o=publication k="conference" inline=true %}</div>
   </li><!--//item-->
   {% endfor %}
   </ol>

@@ -39,7 +39,7 @@
 
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="{{ sidebar.website }}" target="_blank">{{ sidebar.website-text | default: "Website" }}</a>
+      <a href="{{ sidebar.website }}" target="_blank">{% capture ws_text %}{% include t.html o=sidebar k="website-text" %}{% endcapture %}{{ ws_text | default: "Website" }}</a>
     </li>
     {% endif %}
 
@@ -57,7 +57,7 @@
 
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github-text | default: "GitHub" }}</a>
+      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{% capture gh_text %}{% include t.html o=sidebar k="github-text" %}{% endcapture %}{{ gh_text | default: "GitHub" }}</a>
     </li>
     {% endif %}
 

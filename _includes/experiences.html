@@ -7,12 +7,12 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-{{ experiences.icon | default: 'briefcase' }} fa-stack-1x fa-inverse"></i>
     </span>
-    {{ experiences.title }}
+    {% include t.html o=experiences k="title" %}
   </h2>
 
   {% if experiences.intro %}
   <div class="intro">
-    {{ experiences.intro | markdownify }}
+    {% include t.html o=experiences k="intro" md=true %}
   </div><!--//intro-->
   {% endif %}
 
@@ -22,19 +22,19 @@
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
+        <h3 class="job-title">{% include t.html o=experience k="role" %}</h3>
+        <div class="time">{% include t.html o=experience k="time" %}</div>
       </div><!--//upper-row-->
 
       {% if experience.company %}
-      <div class="company">{{ experience.company }}</div>
+      <div class="company">{% include t.html o=experience k="company" %}</div>
       {% endif %}
 
     </div><!--//meta-->
 
     {% if experience.details %}
     <div class="details">
-      {{ experience.details | markdownify }}
+      {% include t.html o=experience k="details" md=true %}
     </div><!--//details-->
     {% endif %}
 

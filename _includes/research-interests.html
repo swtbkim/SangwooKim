@@ -6,11 +6,12 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-{{ interests.icon | default: 'microscope' }} fa-stack-1x fa-inverse"></i>
     </span>
-    {{ interests.title }}
+    {% include t.html o=interests k="title" %}
   </h2>
 
   <ul class="research-interests-list">
-    {% for item in interests.info %}
+    {% assign ri_list = interests.info %}{% if page.lang == "ko" and interests.info_ko %}{% assign ri_list = interests.info_ko %}{% endif %}
+    {% for item in ri_list %}
     <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
     {% endfor %}
   </ul>

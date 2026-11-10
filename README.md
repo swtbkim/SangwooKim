@@ -18,3 +18,12 @@ Personal CV site built on [sharu725/online-cv](https://github.com/sharu725/onlin
 bundle install
 bundle exec jekyll serve
 ```
+
+## English / Korean pages
+- English: `/SangwooKim/` (`index.html`), Korean: `/SangwooKim/ko/` (`ko/index.html`)
+- Both pages share the section order in `_includes/cv-body.html`.
+- In `_data/data.yml`, add a `_ko` field next to any text field (e.g. `role_ko`, `title_ko`).
+  The Korean page uses it when present and falls back to the English value otherwise.
+- `present` in `time` fields is shown as `현재` on the Korean page automatically.
+- Lists: `research-interests.info_ko` replaces `info` on the Korean page.
+- Helper: `_includes/t.html`.

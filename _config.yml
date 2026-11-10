@@ -2,7 +2,8 @@
 # Template: https://github.com/sharu725/online-cv
 
 # Site Settings
-title: 김상우의 CV
+title: Sangwoo Kim | CV
+title_ko: 김상우 | CV
 url: 'https://swtbkim.github.io'
 baseurl: '/SangwooKim' # project page: https://swtbkim.github.io/SangwooKim/
 

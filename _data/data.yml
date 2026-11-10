@@ -4,6 +4,14 @@
 # 섹션을 숨기려면 해당 블록 전체를 주석(#) 처리하면 됩니다.
 # "placeholder" 주석이 달린 항목은 CV에 없어 예시로 남겨둔 내용입니다. 본인 정보로 교체하세요.
 #
+# [한/영 버전]
+#   - 기본 칸(title, role, ...)은 영어 페이지  : /SangwooKim/
+#   - 같은 이름 + _ko 칸(title_ko, role_ko, ...)은 한국어 페이지 : /SangwooKim/ko/
+#   - _ko 칸이 없거나 비어 있으면 한국어 페이지에도 기본(영어) 내용이 그대로 표시됩니다.
+#   - time 칸의 "present" 는 한국어 페이지에서 자동으로 "현재" 로 바뀝니다 (time_ko 불필요).
+#   - 번역 가능한 칸: title, intro, summary, degree, university, details, role, company,
+#     authors, conference, name, items, idiom, level, tagline, website-text, footer
+#
 
 sidebar:
   position: left   # left or right
@@ -20,6 +28,7 @@ sidebar:
   phone: +82-42-860-3218
   website: https://kier-ai-cs.github.io/home/         # https:// 포함 전체 URL
   website-text: Lab Homepage   # 화면에 보이는 글자 (비우면 "Website")
+  website-text_ko: 연구실 홈페이지
   linkedin:         # 아이디만
   github: swtbkim         # 링크: https://github.com/<아이디>
   github-text: GitHub     # 화면에 보이는 글자 (비우면 "GitHub")
@@ -30,44 +39,65 @@ sidebar:
 
   languages:
     title: Languages
+    title_ko: 언어
     info:
     - idiom: Korean
+      idiom_ko: 한국어
       level: Native                            # placeholder
+      level_ko: 모국어
     - idiom: English
+      idiom_ko: 영어
       level: Professional working proficiency  # placeholder
+      level_ko: 업무상 능숙
 
 career-profile:
   title: Introduction
+  title_ko: 소개
   # placeholder - 자기소개를 작성하세요
   summary: |
     CFD engineer
+  summary_ko: |
+    CFD 엔지니어
 
 research-interests:
   title: Research Interests
+  title_ko: 연구 관심 분야
   icon: microscope   # Font Awesome 5 icon name
   # placeholder - 연구 관심 분야를 한 줄씩 작성하세요 (markdown 사용 가능)
   info:
   - Multi-physics modeling and simulation of energy and environmental facilities
   - CFD Automation
+  info_ko:
+  - 에너지·환경 설비의 다중물리 모델링 및 시뮬레이션
+  - CFD 자동화
 
 education:
   title: Education & Experiences
+  title_ko: 학력 및 경력
   info:
   - degree: Senior Researcher
+    degree_ko: 선임연구원
     university: Energy Platform Research Laboratory, Korea Institute of Energy Research (KIER), Daejeon, South Korea
+    university_ko: 한국에너지기술연구원 에너지플랫폼연구실, 대전   # 초안: 공식 부서명 확인
     time: Oct 2023 &ndash; present
 
   - degree: Defect Transport Simulation (DTS) Engineer
+    degree_ko: Defect Transport Simulation (DTS) 엔지니어
     university: Defect Engineering White, SK hynix, Icheon, South Korea
+    university_ko: SK하이닉스 Defect Engineering White, 이천
     time: Mar 2023 &ndash; Sep 2023
 
   - degree: Ph.D. in Mechanical Engineering
+    degree_ko: 기계공학 박사
     university: Yonsei University, Seoul, South Korea
+    university_ko: 연세대학교, 서울
     time: Mar 2016 &ndash; Feb 2023
     details:
 
   - degree: B.S. in Mechanical Engineering
+    degree_ko: 기계공학 학사
     university: Korea University, Seoul, South Korea
+    university_ko: 고려대학교, 서울
     time: Mar 2009 &ndash; Feb 2015
 
 # ---------------------------------------------------------------
@@ -77,8 +107,10 @@ education:
 # ---------------------------------------------------------------
 publications:
   title: Journal Articles
+  title_ko: 학술지 논문
   icon: file-alt
   intro: "\\* Corresponding author, † Co-first author"
+  intro_ko: "\\* 교신저자, † 공동 1저자"
   papers:
   - title: "Application of ionic wind in sampling of bioaerosols: collection efficiency, ROS/RNS production, and viability assessment"
     link: https://doi.org/10.1016/j.jhazmat.2024.136612
@@ -128,47 +160,68 @@ publications:
 # ---------------------------------------------------------------
 experiences:
   title: Research Projects
+  title_ko: 연구 과제
   icon: project-diagram
   info:
-  - role: PEM 수전해용 다공성 확산층 및 분리판 원가 저감을 위한 소재 및 양산 공정 기술 개발 (KETEP)
+  - role: "Cost-effective manufacturing of material and mass production processes for PTLs and bipolar plates in PEM water electrolysis (KETEP)"
+    role_ko: "PEM 수전해용 다공성 확산층 및 분리판 원가 저감을 위한 소재 및 양산 공정 기술 개발 (KETEP)"
     time: 2026 &ndash; present
-    company: 참여연구원
-  
-  - role: 직접공기포집(DAC)용 고체포집제 성능 고도화 및 200 kg/일급 저차압 고정층 연속 시스템 개발 (NRF)
+    company: Participating Researcher
+    company_ko: 참여연구원
+
+  - role: "Development of performance-enhanced solid sorbents and 200 kg/day-scale low pressure-drop, continuously operated fixed-bed system for direct air capture (NRF)"
+    role_ko: "직접공기포집(DAC)용 고체포집제 성능 고도화 및 200 kg/일급 저차압 고정층 연속 시스템 개발 (NRF)"
     time: 2026 &ndash; present
-    company: 참여연구원
+    company: Participating Researcher
+    company_ko: 참여연구원
 
-  - role: 네거티브 에미션 구현을 위한 구조화 흡착제 기반의 스케일업 가능한 저비용·고효율 직접공기포집 기술개발 (NRF)
+  - role: "Development of Scalable, Low-Cost, and High-Efficiency Adsorption-Based Direct Air Capture Technology for Achieving Negative Emissions (NRF)"
+    role_ko: "네거티브 에미션 구현을 위한 구조화 흡착제 기반의 스케일업 가능한 저비용·고효율 직접공기포집 기술개발 (NRF)"
     time: 2026 &ndash; present
-    company: 참여연구원
+    company: Participating Researcher
+    company_ko: 참여연구원
 
-  - role: High-TDP Chip 대응 및 데이터 서버 냉각 에너지 50% 절약을 위한 고 열유속 최소 액침 기술 개발 (KIER)
+  - role: "Development of high heat flux minimum immersion cooling technology for high-TDP chip support and data server cooling energy saving of 50% (KIER)"
+    role_ko: "High-TDP Chip 대응 및 데이터 서버 냉각 에너지 50% 절약을 위한 고 열유속 최소 액침 기술 개발 (KIER)"
     time: 2025 &ndash; present
-    company: 참여연구원
+    company: Participating Researcher
+    company_ko: 참여연구원
 
-  - role: 포집비용 30% 절감을 위한 CO2 포집 공정 및 흡수제 고도화 기술 개발 (KIER)
+  - role: "Development of Advanced CO₂ Capture Process and Absorbents Technology for 30% Cost Reduction (KIER)"
+    role_ko: "포집비용 30% 절감을 위한 CO2 포집 공정 및 흡수제 고도화 기술 개발 (KIER)"
     time: 2025 &ndash; present
-    company: 참여연구원
+    company: Participating Researcher
+    company_ko: 참여연구원
 
-  - role: 금속지지형 SOEC 셀 및 셀-분리판 일체형 스택 기술 (KIER)
+  - role: "Metal-Supported SOEC Cell and Integrated Cell-Interconnect Stack Technology (KIER)"
+    role_ko: "금속지지형 SOEC 셀 및 셀-분리판 일체형 스택 기술 (KIER)"
     time: 2025 &ndash; present
-    company: 참여연구원
+    company: Participating Researcher
+    company_ko: 참여연구원
 
-  - role: 국가수소중점연구실 알칼라인 수전해 기술개발 (NRF)
+  - role: "Alkaline electrolysis technology development for National hydrogen key technology center (NRF)"
+    role_ko: "국가수소중점연구실 알칼라인 수전해 기술개발 (NRF)"
     time: 2024 &ndash; present
-    company: 참여연구원
+    company: Participating Researcher
+    company_ko: 참여연구원
 
-  - role: 직접공기포집용 고체흡수제 원천 기술 및 10 kg/일 규모 저차압 고정층 연속 시스템 개발 (NRF)
+  - role: "Development of advanced solid sorbent and 10 kg/day-scale low differential pressure continuous fixed-bed system for direct air capture (NRF)"
+    role_ko: "직접공기포집용 고체흡수제 원천 기술 및 10 kg/일 규모 저차압 고정층 연속 시스템 개발 (NRF)"
     time: 2024 &ndash; 2026
-    company: 참여연구원
+    company: Participating Researcher
+    company_ko: 참여연구원
 
-  - role: 실내 CO2 포집 기능이 탑재된 가정용 고급 공기청정기 개발 (KIER)
+  - role: "Development of a premium household air purifier with indoor CO₂ capture (KIER)"   # 초안 번역: CV에 영문 과제명 없음
+    role_ko: "실내 CO2 포집 기능이 탑재된 가정용 고급 공기청정기 개발 (KIER)"
     time: 2024 &ndash; 2025
-    company: 참여연구원
+    company: Participating Researcher
+    company_ko: 참여연구원
 
-  - role: 액체금속을 이용한 메탄 직접 열분해 기술 개발 (KETEP)
-    time: 2024
-    company: 참여연구원
+  - role: "Development of methane direct pyrolysis technology using molten metal (KETEP)"
+    role_ko: "액체금속을 이용한 메탄 직접 열분해 기술 개발 (KETEP)"
+    time: "2024"
+    company: Participating Researcher
+    company_ko: 참여연구원
 
 # experiences3:
 #   title: Honors &amp; Awards
@@ -180,9 +233,11 @@ experiences:
 
 skills:
   title: Skills
+  title_ko: 보유 기술
   toolset:
   # level 을 지정하면 막대 그래프, items 를 지정하면 텍스트로 표시
   - name: "Scientific Computing:"
+    name_ko: "수치해석:"
     items: ANSYS Fluent, OpenFOAM, Python, C
 
 footer: >

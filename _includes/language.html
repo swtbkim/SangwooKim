@@ -3,14 +3,14 @@
 <div class="languages-container container-block">
 
   <h2 class="container-block-title">
-    {{ languages.title }}
+    {% include t.html o=languages k="title" %}
   </h2>
 
   <ul class="list-unstyled interests-list">
     {% for language in languages.info %}
     <li>
-      {{ language.idiom }}
-      {% if language.level %}<span class="lang-desc">({{ language.level }})</span>{% endif %}
+      {% include t.html o=language k="idiom" %}
+      {% if language.level %}<span class="lang-desc">({% include t.html o=language k="level" %})</span>{% endif %}
     </li>
     {% endfor %}
   </ul>

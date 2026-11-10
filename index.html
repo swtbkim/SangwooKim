@@ -1,21 +1,6 @@
 ---
 layout: default
+lang: en
 ---
-
-{% include career-profile.html %}
-
-{% include research-interests.html %}
-
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include publications.html key="publications" %}
-{% include publications.html key="publications2" %}
-{% include publications.html key="publications3" %}
-
-{% include experiences.html key="experiences" %}
-{% include experiences.html key="experiences2" %}
-{% include experiences.html key="experiences3" %}
-
-{% include projects.html %}
+{% comment %} Section order is shared by both languages: edit _includes/cv-body.html {% endcomment %}
+{% include cv-body.html %}

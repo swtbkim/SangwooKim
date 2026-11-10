@@ -8,12 +8,18 @@
     {% endif %}
 
     {% if sidebar.name %}
-    <h1 class="name">{{ sidebar.name }}</h1>
+    <h1 class="name">{% include t.html o=sidebar k="name" %}</h1>
     {% endif %}
 
     {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    <h3 class="tagline">{% include t.html o=sidebar k="tagline" %}</h3>
     {% endif %}
+
+    <div class="lang-switch">
+      <a href="{{ site.baseurl }}/"{% unless page.lang == "ko" %} class="active"{% endunless %}>EN</a>
+      <span class="sep">|</span>
+      <a href="{{ site.baseurl }}/ko/"{% if page.lang == "ko" %} class="active"{% endif %}>한국어</a>
+    </div>
 
   </div><!--//profile-container-->
 

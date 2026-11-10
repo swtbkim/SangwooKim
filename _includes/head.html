@@ -1,5 +1,7 @@
 <head>
-  <title>{{ site.title }}</title>
+  <title>{% if page.lang == "ko" %}{{ site.title_ko | default: site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}/">
+  <link rel="alternate" hreflang="ko" href="{{ site.url }}{{ site.baseurl }}/ko/">
 
   <!-- Meta -->
   <meta charset="utf-8">

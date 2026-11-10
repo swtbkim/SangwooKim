@@ -171,6 +171,26 @@ p {
       background: rgba(255, 255, 255, 0.7);
     }
   }
+  .lang-switch {
+    margin-top: 12px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    a {
+      color: rgba(256, 256, 256, 0.5);
+      &:hover {
+        color: #fff;
+        text-decoration: none;
+      }
+      &.active {
+        color: #fff;
+        font-weight: 700;
+      }
+    }
+    .sep {
+      margin: 0 6px;
+      color: rgba(256, 256, 256, 0.3);
+    }
+  }
   .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
