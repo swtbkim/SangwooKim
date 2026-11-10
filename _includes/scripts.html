@@ -1,2 +1,28 @@
 <!-- Javascript -->
+<script>
+  // Shrink text marked .fit-one-line (data.yml: fit / fit_ko: true) until it fits
+  // on one line. Gives up and restores normal wrapping below MIN px.
+  (function () {
+    var MIN = 11;
+    function fit() {
+      var els = document.querySelectorAll('.fit-one-line');
+      for (var i = 0; i < els.length; i++) {
+        var el = els[i];
+        el.style.fontSize = '';
+        el.style.whiteSpace = 'nowrap';
+        var size = parseFloat(getComputedStyle(el).fontSize);
+        while (el.scrollWidth > el.clientWidth && size > MIN) {
+          size -= 0.25;
+          el.style.fontSize = size + 'px';
+        }
+        if (el.scrollWidth > el.clientWidth) {
+          el.style.fontSize = '';
+          el.style.whiteSpace = '';
+        }
+      }
+    }
+    window.addEventListener('load', fit);
+    window.addEventListener('resize', fit);
+  })();
+</script>
 {% if site.analytics %} {% include analytics.html %} {% endif %}

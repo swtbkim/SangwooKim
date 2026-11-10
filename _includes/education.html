@@ -10,7 +10,8 @@
     {% for graduation in education.info %}
     <div class="item">
       <h4 class="degree">{% include t.html o=graduation k="degree" %}</h4>
-      <h5 class="meta">{% include t.html o=graduation k="university" %}</h5>
+      {% capture edu_fit %}{% include t.html o=graduation k="fit" %}{% endcapture %}
+      <h5 class="meta{% if edu_fit == 'true' %} fit-one-line{% endif %}">{% include t.html o=graduation k="university" %}</h5>
       <div class="time">{% include t.html o=graduation k="time" %}</div>
       {% if graduation.details %}
       <div class="edu-details">{% include t.html o=graduation k="details" md=true %}</div>
