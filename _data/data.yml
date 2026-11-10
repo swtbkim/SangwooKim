@@ -40,6 +40,16 @@ career-profile:
   summary: |
     CFD engineer
 
+research-interests:
+  title: Research Interests
+  icon: microscope   # Font Awesome 5 icon name
+  # placeholder - 연구 관심 분야를 한 줄씩 작성하세요 (markdown 사용 가능)
+  info:
+  - Research interest 1
+  - Research interest 2
+  - Research interest 3
+  - Research interest 4
+
 education:
   title: Education & Experiences
   info:

@@ -1,0 +1,18 @@
+{% assign interests = site.data.data.research-interests %}
+{% if interests %}
+<section class="section research-interests-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-{{ interests.icon | default: 'microscope' }} fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ interests.title }}
+  </h2>
+
+  <ul class="research-interests-list">
+    {% for item in interests.info %}
+    <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+    {% endfor %}
+  </ul>
+</section><!--//section-->
+{% endif %}
