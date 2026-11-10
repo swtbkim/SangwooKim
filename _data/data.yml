@@ -47,8 +47,7 @@ research-interests:
   icon: microscope   # Font Awesome 5 icon name
   # placeholder - 연구 관심 분야를 한 줄씩 작성하세요 (markdown 사용 가능)
   info:
-  - Multi-physics CFD modeling and simulation of energy/environmental facilities
-  - Water electrolysis, CCUS, DAC, cooling, 
+  - Multi-physics modeling and simulation of energy and environmental facilities
   - CFD Automation
 
 education:
