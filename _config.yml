@@ -3,8 +3,8 @@
 
 # Site Settings
 title: 김상우의 CV
-url: 'https://sangwookim.github.io'
-baseurl: '' # <username>.github.io 저장소이므로 비워둠
+url: 'https://swtbkim.github.io'
+baseurl: '/SangwooKim' # project page: https://swtbkim.github.io/SangwooKim/
 
 description: Sangwoo Kim - Curriculum Vitae
 # Style will be applied only after restarting the build or serve.

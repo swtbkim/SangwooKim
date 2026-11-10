@@ -1,4 +1,6 @@
-# sangwookim.github.io
+# SangwooKim CV
+
+Live: https://swtbkim.github.io/SangwooKim/
 
 Personal CV site built on [sharu725/online-cv](https://github.com/sharu725/online-cv), with a monochrome (`mono`) skin.
 
