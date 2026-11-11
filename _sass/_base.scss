@@ -89,6 +89,16 @@ p {
     border-radius: 10px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
+  .greeting {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    color: rgba(256, 256, 256, 0.75);
+    line-height: 1.6;
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
   .contact-list {
     .fas,
     .fab,

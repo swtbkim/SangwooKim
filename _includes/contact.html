@@ -1,4 +1,7 @@
 <div class="contact-container container-block">
+  {% if sidebar.greeting %}
+  <div class="greeting">{% include t.html o=sidebar k="greeting" md=true %}</div>
+  {% endif %}
   <ul class="list-unstyled contact-list">
 
     {% if sidebar.email %}
