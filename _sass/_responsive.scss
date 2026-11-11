@@ -65,11 +65,3 @@
 /* Ex-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
 }
-
-// Hide floating Print / PDF buttons on phones (they overlap the avatar)
-@media (max-width: 767px) {
-  .print-button,
-  .pdf-button {
-    display: none;
-  }
-}
