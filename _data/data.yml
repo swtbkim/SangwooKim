@@ -55,14 +55,14 @@ sidebar:
       level: Professional working proficiency
       level_ko: 업무상 능숙함
 
-career-profile:
-  title: Introduction
-  title_ko: 소개
-  # placeholder - 자기소개를 작성하세요
-  summary: |
-    CFD engineer
-  summary_ko: |
-    CFD 엔지니어
+# career-profile:
+#   title: Introduction
+#   title_ko: 소개
+#   # placeholder - 자기소개를 작성하세요
+#   summary: |
+#     CFD engineer
+#   summary_ko: |
+#     CFD 엔지니어
 
 research-interests:
   title: Research Interests
@@ -71,6 +71,9 @@ research-interests:
   # placeholder - 연구 관심 분야를 한 줄씩 작성하세요 (markdown 사용 가능)
   info:
   - Multi-physics modeling and simulation of energy and environmental facilities
+    # - Water electrolysis: Solid oxide, alkaline, PEM
+    # - Adsorption: direct air capture, CO2 scrubber
+    # - 
   - CFD Automation
   info_ko:
   - 에너지·환경 설비의 다중물리 모델링 및 시뮬레이션
