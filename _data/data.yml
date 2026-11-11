@@ -73,7 +73,10 @@ research-interests:
   - Multi-physics modeling and simulation of energy and environmental facilities
     # - Water electrolysis: Solid oxide, alkaline, PEM
     # - Adsorption: direct air capture, CO2 scrubber
-    # - 
+    # - Heat transfer: impinging jet cooling
+    # - Non-thermal plasma: electrostatic precipitator, DPF regeneration
+    # - Fludized bed reactors
+    # - Solid fuel combustion and gasification
   - CFD Automation
   info_ko:
   - 에너지·환경 설비의 다중물리 모델링 및 시뮬레이션
