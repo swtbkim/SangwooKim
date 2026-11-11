@@ -32,6 +32,13 @@ a {
   }
 }
 
+// Korean page: wrap Hangul only at spaces so words are never split mid-word.
+// overflow-wrap is a fallback for a single word wider than its box.
+html[lang="ko"] body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
 p {
   line-height: 1.5;
 }

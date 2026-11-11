@@ -90,7 +90,6 @@ education:
     degree_ko: 선임연구원
     university: Energy Platform Research Laboratory, Korea Institute of Energy Research (KIER), Daejeon, South Korea
     university_ko: 한국에너지기술연구원 에너지플랫폼연구실
-    fit_ko: true   # 한국어 페이지에서 소속을 1줄로 맞춤 (글자 크기 자동 축소)
     time: Oct 2023 &ndash; present
     time_ko: 2023.10. &ndash; 현재
 
