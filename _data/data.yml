@@ -25,8 +25,8 @@ sidebar:
   avatar: profile.jpg  # /assets/images/ 폴더의 사진 파일명 (원형으로 자동 크롭됨)
 
   # 인사말: 사이드바 연락처(메일) 위에 표시. markdown 사용 가능, 비우면 숨김
-  greeting: Welcome! Feel free to reach out for research collaboration.   # placeholder
-  greeting_ko: 방문해 주셔서 감사합니다. 연구 협업 문의는 언제든 환영합니다.   # placeholder
+  greeting: Hi, there! 
+  # greeting_ko:
 
   # Sidebar links (사용하지 않는 항목은 비워두거나 주석 처리)
   email: sangwoo.kim@kier.re.kr
