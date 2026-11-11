@@ -5,8 +5,8 @@
 # "placeholder" 주석이 달린 항목은 CV에 없어 예시로 남겨둔 내용입니다. 본인 정보로 교체하세요.
 #
 # [한/영 버전]
-#   - 기본 칸(title, role, ...)은 영어 페이지  : /SangwooKim/
-#   - 같은 이름 + _ko 칸(title_ko, role_ko, ...)은 한국어 페이지 : /SangwooKim/ko/
+#   - 기본 칸(title, role, ...)은 영어 페이지  : /sangwookim/
+#   - 같은 이름 + _ko 칸(title_ko, role_ko, ...)은 한국어 페이지 : /sangwookim/ko/
 #   - _ko 칸이 없거나 비어 있으면 한국어 페이지에도 기본(영어) 내용이 그대로 표시됩니다.
 #   - time 칸의 "present" 는 한국어 페이지에서 자동으로 "현재" 로 바뀝니다 (time_ko 불필요).
 #   - 번역 가능한 칸: title, intro, summary, degree, university, details, role, company,

@@ -1,6 +1,6 @@
-# SangwooKim CV
+# sangwookim CV
 
-Live: https://swtbkim.github.io/SangwooKim/
+Live: https://swtbkim.github.io/sangwookim/
 
 Personal CV site built on [sharu725/online-cv](https://github.com/sharu725/online-cv), with a monochrome (`mono`) skin.
 
@@ -20,7 +20,7 @@ bundle exec jekyll serve
 ```
 
 ## English / Korean pages
-- English: `/SangwooKim/` (`index.html`), Korean: `/SangwooKim/ko/` (`ko/index.html`)
+- English: `/sangwookim/` (`index.html`), Korean: `/sangwookim/ko/` (`ko/index.html`)
 - Both pages share the section order in `_includes/cv-body.html`.
 - In `_data/data.yml`, add a `_ko` field next to any text field (e.g. `role_ko`, `title_ko`).
   The Korean page uses it when present and falls back to the English value otherwise.

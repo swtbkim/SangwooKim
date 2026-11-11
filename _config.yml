@@ -5,7 +5,7 @@
 title: Sangwoo Kim | CV
 title_ko: 김상우 | CV
 url: 'https://swtbkim.github.io'
-baseurl: '/SangwooKim' # project page: https://swtbkim.github.io/SangwooKim/
+baseurl: '/sangwookim' # project page: https://swtbkim.github.io/sangwookim/
 
 description: Sangwoo Kim - Curriculum Vitae
 # Style will be applied only after restarting the build or serve.
