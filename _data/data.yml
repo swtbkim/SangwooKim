@@ -88,19 +88,19 @@ education:
     degree_ko: Defect Transport Simulation (DTS)
     university: Defect Engineering White, SK hynix, Icheon, South Korea
     university_ko: SK하이닉스 Defect Engineering White
-    fit_ko: true
+    fit_ko: true   # 한국어 페이지에서 소속을 1줄로 맞춤 (글자 크기 자동 축소)
     time: Mar 2023 &ndash; Sep 2023
     time_ko: 2023.03. &ndash; 2023.09.
 
   - degree: Ph.D. in Mechanical Engineering
-    degree_ko: 공학박사(기계공학)
+    degree_ko: 공학박사, 기계공학
     university: Yonsei University, Seoul, South Korea
     university_ko: 연세대학교, 서울
     time: Mar 2016 &ndash; Feb 2023
     time_ko: 2016.03 &ndash; 2023.02.
 
   - degree: B.S. in Mechanical Engineering
-    degree_ko: 공학사(기계공학)
+    degree_ko: 공학사, 기계공학
     university: Korea University, Seoul, South Korea
     university_ko: 고려대학교, 서울
     time: Mar 2009 &ndash; Feb 2015
